@@ -1,0 +1,111 @@
+
+body{
+	background-color: #6181A1;
+	padding: 30px;
+}
+button{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	height: 100px;
+	margin: 15px;
+	padding: 30px;
+	width: 210px;
+}
+h4{
+	font-size: 18px;
+	opacity: 1.0;
+}
+h5{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+    width: 70%;
+}
+h4{
+	width: 105px;
+}
+input[type="text"]{
+	border: 1px solid;
+}
+a:hover{
+	color: orange;
+}
+a:active{
+	color: red;
+}
+a:link{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+	color:green;
+}
+a:visited{
+	color: yellow;
+}
+#footer{
+	bottom: 0px;
+	position: absolute;
+}
+#main{
+	background-color: #8AB8E6;
+	border-style: groove;
+	border-width: 5px;
+	margin: 45px;
+	padding: 25px;
+	padding-bottom: 55px;
+	text-align: center;
+}
+@media only screen and (min-width: 1020px){
+#menuBar{
+	background-color: black;
+	border-style: inset;
+	color: #9FB3CA;
+	left: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	opacity: 0.9;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+	width: 42%;
+	}
+}
+#menuOptions{
+	border: solid 8px #9FB3CA;
+	border-style: outset;
+	position: relative;
+	height: absolute;
+	left: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 15px;
+	width: 500px;
+}
+@media only screen and (min-width: 1020px){
+#sidebar{
+	background-color: #E0E0E0;
+	border-style: inset;
+	margin-left:10px;
+	opacity: 0.7;
+	padding: 35px;
+	position: fixed;
+	width: 20%;
+	}
+}
+/* CSS after window is smaller than 1020px; */
+@media screen and (max-width: 1019px){
+button{
+	height: 50%;
+	width: 165px;
+}
+h4, hr{
+	display:none;
+}
+#menuOptions{
+	width: 400px;
+}
+#sidebar{
+	
+	}
+}
