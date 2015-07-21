@@ -24,6 +24,8 @@
 		<button type="button" id="contactBtn" onclick="contactFunction()">Contacts</button><br>
 		<button type="button" id="financialsBtn" onclick="financialFunction()">Financials</button>
 		<button type="button" id="apptBtn" onclick="appointmentFunction()" title="Stay current with your Doctor's appointments for a healthy life." value="appointments.php">Appointments</button>	
+		
+		<!-- JAVASCRIPT -->
 			<script>
 				function patientFunction(){
 					alert("We at Harmon Pravst believe in the saftey and security of your personal information and will protect all your information 24/7");

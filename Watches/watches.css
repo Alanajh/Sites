@@ -1,0 +1,57 @@
+body{
+	margin: 0px;
+	position: static;
+}
+#headlines > #company{
+	color: black;
+	font-size: 18px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	text-shadow: none;
+	opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+#headlines{
+	background-color: #CCCCFF;
+	color: #3399FF;
+	font-size: 46px;
+	height: 80px;
+	margin: 0px;
+	padding: 45px;
+	text-align: center;
+	text-shadow: 2px 2px #3333FF;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+#left{	color: #3399FF;
+	float: left;
+	font-size: 62px;
+while}	margin: auto;
+	padding: 45px;
+	text-align: center;
+	width: auto;
+	/* TRANSPARENCY */
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+#right{
+	background-color: #E0E0E0;
+	color: #3399FF;
+	float: right;
+	font-size: 62px;
+	height: 200px;
+	margin: auto;
+	padding: 45px;
+	text-align: center;
+	width: auto;
+	/* TRANSPARENCY */
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+#words{
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}

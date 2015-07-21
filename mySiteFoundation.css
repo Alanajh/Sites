@@ -23,17 +23,19 @@ meta.foundation-mq-xxlarge {
 
 meta.foundation-data-attribute-namespace {
   font-family: false; }
-
+@media screen and (min-width: 635px){
 html, body {
   height: 100%; }
-
+htmk{
+	min-width: 635px;
+}
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
+  
 html,
 body {
   font-size: 100%; }
@@ -42,17 +44,31 @@ body {
   background-image: url("industrial copy.jpg");
   color: #222222;
   padding: 50;
-  margin: 0;
+  margin: 50px;
+  margin-right: 50px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
   position: relative;
-  cursor: default; }
+  cursor: default; 
+   position: static;
+    width: 90%;
+	}
+	#headlines h2{
+		color: #A05344;
+	}
+	iframe{
+	  border: solid 8px #A05344;
+	}
 
+
+#manchest{
+	margin-right:20px;
+}
 a:hover {
-  cursor: pointer; }
-
+  cursor: pointer; 
+  }
 img {
   max-width: 100%;
   height: auto; }
@@ -2814,7 +2830,7 @@ blockquote p {
     font-size: 2.75rem; }
 
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 3.3125rem; }
 
   h3 {
     font-size: 1.6875rem; }
@@ -5486,9 +5502,6 @@ th.hide-for-touch {
     footer{
       color: #7A776A;
     }
-    h4{
-      color:#C0C0C0;
-    }
     .panel{
       background-color: #C27D70;
     }
@@ -5502,7 +5515,4 @@ th.hide-for-touch {
       -moz-border-radius: 400px;
       -webkit-border-radius: 400px;
     }
-	/* NON-FOUNDATION 5 CSS */
-iframe{ 
-	margin-left: 44;
-}
+	}
