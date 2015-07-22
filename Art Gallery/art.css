@@ -5,7 +5,8 @@ body{
 figure{
 	color: #FF8000;
 	float: left;	
-	padding: 20px;
+	padding-: 0px;
+	position: relative;
 }
 h3{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -16,10 +17,12 @@ h3{
 h5{
 	padding-left: 200px;
 }
+
 /* id css */
 #artbar{
 	background-color: #660000;
 	height: 300px;
+	padding-left: 240px;
 	position: absolute;
 	top: 300px;
 	width: 100%;
@@ -35,9 +38,10 @@ h5{
 	top: 600px;
 	width: 100%;
 }
-#left{
-	position: relative;
-}
+							#middle{
+								border: solid 4px;
+								position: absolute;
+							}
 #right{
 	float: right;
 	padding-right: 50px;
@@ -58,4 +62,6 @@ h5{
 	padding-left: 15px;
 	position: absolute;
 	top: 260px;
-}
+	}
+	
+/* CSS changes when image is at a certain location on the screen*/
