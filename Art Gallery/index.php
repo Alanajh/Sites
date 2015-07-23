@@ -56,13 +56,18 @@
 				var x3 = $("#img3").offset();
 				var l3 = x3.left;
 				<!-- alert("Top: " + x.top + " Left: " + x.left); -->
+				
 		<!-- resizing image 1 -->
 				if(l <= 0 - 140){
 					$("#img1").css({"float" : "right"});
 				}
-				else if (l <= 400 || l >= 600){
-					$("#i1").css({"width" : "100", "height" : "100"});
+				else if (l >= (0 - 141) && (l <= 399)){
+					$("#img1").css({"width" : " 150", "height" : "150"});
 				}
+				else if (l >= 400 && l <= 600){
+					$("#img1").css({"width" : "200", "height" : "200"});
+				}
+				
 		<!-- resizing image 2 -->
 				if(l2 <= 0 - 140){
 					$("#img1").css({"position" : "relative"});
@@ -74,6 +79,7 @@
 				else if(l2 >= 400 || l2 <= 600){
 							$("#i2").css({"width" : "150", "height" : "150"});
 				}
+				
 		<!-- resizing image 3 -->		
 				if(l3 <= 0 - 140){
 					$("#img3").css({"float" : "right"});
