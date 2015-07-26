@@ -1,56 +1,15 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<!-- Add the script to the HEAD of your document -->
-<SCRIPT LANGUAGE = "JavaScript">
-<!--
-var curmes = 0
-var a = 0
-var counter = 0
-var message = new Array()
-
-// The following are the lines to change. Remove this line when done.
-message[0] = " Your text here "
-message[1] = "  "
-message[2] = "  "
-message[3] = "  "
-message[4] = "  "
-// DELETE OR ADD MORE MESSAGES HERE FOLLOWING ABOVE FORMAT
-
-var temp = ""
-function scrollit()
-{
-a = a + 1
-check()
-window.status = message[curmes].substring(0, a)
-if(a == message[curmes].length + 10) 	// CHANGE 10 HERE IF REQUIRED
-{
-curmes = curmes + 1
-a = 0
-}
-if(curmes > 10) 	// CHANGE 10 HERE IF REQUIRED
-{
-curmes = 0
-}
-counter = setTimeout("scrollit()", 80) // 80 IS SCROLL SPEED, HIGHERIS SLOWER, LOWER IS FASTER
-}
-function check()
-{
-if(a <= message[curmes].length)
-{
-if(message[curmes].substring(a, a + 1) == "")
-{
-a = a + 1
-check()
-}
-}
-}
-// -->
-</SCRIPT>
-
-</head>
-
-<!--Add the loader to the body tag as shown below-->
-<body onload="scrollit()">
+		<link rel="stylesheet" type="text/css" href="mySiteFoundation.css">
+	</head>	
+<body>
+	<div id="headlines">
+		<h2>Java Applications</h2>
+		<hr>
+	</div>
+	<div id="apps">
+		 <applet code = "C:\Users\aharmon\Desktop\Sites\Dodgeball\bin\Menu.class" width = "400px" height = "300px"></applet>  
+	</div>
 </body>
 </html>

@@ -1,0 +1,67 @@
+/* tag css */
+body{
+	margin:0px;
+}
+figure{
+	color: #FF8000;
+	float: left;	
+	padding-: 0px;
+	position: relative;
+}
+h3{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 60px;
+	padding: 40px;
+	text-align: center;
+}
+h5{
+	padding-left: 200px;
+}
+
+/* id css */
+#artbar{
+	background-color: #660000;
+	height: 300px;
+	padding-left: 240px;
+	position: absolute;
+	top: 300px;
+	width: 100%;
+}
+#credentials{
+	background-color: #990000;
+	color: #FFFFFF;	
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	text-align: center;
+	top: 600px;
+	width: 100%;
+}
+							#middle{
+								border: solid 4px;
+								position: absolute;
+							}
+#right{
+	float: right;
+	padding-right: 50px;
+	padding-top: 20px;
+	position: relative;
+}
+#menu{
+	background-color: #990000;
+	color: #FFFFFF;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;	
+}
+#select{
+	padding-left: 15px;
+	position: absolute;
+	top: 260px;
+	}
+	
+/* CSS changes when image is at a certain location on the screen*/
