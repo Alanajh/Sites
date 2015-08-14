@@ -6,13 +6,35 @@ body{
 	padding-left: 5px;
 	padding-right: 5px;
 }
+footer{
+	background-color: #99FF99;
+	height: 185px;
+}
+h2{
+	text-align: center;
+}
+h5{
+	color: #A0A0A0;
+}	
+/* aligns ul in footer horizontally  */
+textarea{
+	resize:none;
+}
+ul{
+	display: table-cell;
+}
 
-img {
-    opacity: 0.5;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-	width: 100%;
-	}
-	
+/* ID CSS*/	
+#bottomContact{
+	border-width: 1px;
+	border-style: solid;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#city{
+	font-size: 24px;
+	text-align:center;
+}
 #deco1{
 	background-color: #CCCC00;
 	height: 3px;
@@ -21,11 +43,23 @@ img {
 	background-color: #CCCC00;
 	height: 2px;
 }
-#menu{
-	position: relative;
-	background-color: #FFFFFF;
-	height: 300px;
+#footfoot{
+	font-size: 11px;
 	text-align: center;
+}
+#guy{
+	height: 300px;
+}
+#leftInfo{
+	color: white;
+	float: left;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin: 40px;
+	width: 60%;
+}
+#menu{
+	background-color: #FFFFFF;
 	top-margin: 0px;
 	width: 100%;
 }
@@ -33,6 +67,7 @@ img {
 	background-color: #99FF99;
 	height:  35px;
 }
+/* Need to  add @media for 'original' and  'shadow'  when resizing to keep in lline*/
 #original{
 	color: white;
 	font-size: 72px;
@@ -41,10 +76,34 @@ img {
 	top: 100px;
 	width: 100%;
 }
-#section{
-	background-color: #CCE5FF;
-	height: 300px;
+#originalP{
+	color: white;
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 25px;
+	padding-top: 0px;
+	position: absolute;
 }
+#realInfo{
+	float: left;
+	opacity: 0.5;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#rightBio{
+	background-color: white;
+	float: right;
+	height: 200px;
+	width: 30%;
+	opacity: 2.0;
+    filter: alpha(opacity=200); /* For IE8 and earlier */
+}
+#section{
+	background-color: #191970;
+	height: 570px;
+	width: 100%;
+
+}
+/* Need to  add @media for 'original' and  'shadow'  when resizing to keep in lline*/
 #shadow{
 	color: #CCFF99;
 	font-size: 74px;
@@ -53,3 +112,19 @@ img {
 	top: 100px;
 	width: 100%;
 }
+#tos{	
+	float: right;
+	margin-right: 20px;
+}
+/* CLASSES*/
+.menuPics{
+	height: 300px;
+}			
+
+/* COMBO ID and child selectors */
+#menu img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	height: 300px;
+	width: 100%;
+	}
