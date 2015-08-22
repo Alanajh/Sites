@@ -46,19 +46,20 @@
 			<h3> Contact Us: </h3>
 			
 	<!-- PHP for the form -->
-				<form id="contactForm" action="data.php" method="post">
+				<form action="data.php" method="post" >
 					First name:<br>
-					<input type="text" name="firstname">
+					<input type="text" name="firstname"/>
 					<br>
 					Last name:<br>
-					<input type="text" name="lastname"><br>
+					<input type="text" name="lastname"//><br>
 					E-mail:<br>
-					<input type="email" name="email"><br>
+					<input type="email" name="email"/><br>
 					<br>
 					Comments: <br>
 					<textarea rows="6" cols="50" maxlength="250"></textarea><br><br>
-					<input type="submit" name="submit" value="Submit"><br>
+					<input type="submit" value="Submit" name="submit:"/><br>
 					<h5> * 250 maximum length </h5>
+					
 				</form>
 			<!-- Form submission -->	
 			

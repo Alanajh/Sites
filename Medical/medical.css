@@ -1,0 +1,15 @@
+body{
+	background-color: #FFCC00;
+	padding: 20px;
+	position: absolute;
+}
+h3{
+	color: white;
+}
+
+/* ID s */
+#form{
+	border: 2px solid white;
+	padding: 15px;
+	position:	absolute;
+}
