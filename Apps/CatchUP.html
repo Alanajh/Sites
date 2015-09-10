@@ -3,27 +3,32 @@
 <head>
 <link rel="stylesheet" type="text/css" href="catchup.css"></link>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("#div1").fadeIn("fast");
-        $("#div2").fadeIn();
-        $("#div3").fadeIn("slow");
-		$("#div4").fadeIn(3000);
-    });
-});
-</script>
-</head>
-<body>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#div1").fadeIn("fast");
+				$("#div2").fadeIn();
+				$("#div3").fadeIn("slow");
+				$("#div4").fadeIn(3000);
+			});
+		});
+	</script>
+	</head>
+	<body>
+	
+	<p>Catch UP!</p>
 
-<p>Catch UP!</p>
+		<button class="start">Start</button><br><br>
+			<marquee behavior="slide" direction="left">
+				<img src="" alt="image name" width="110" height="110">
+				<img src="" alt="image name" width="110" height="110">
+				<img src="" alt="image name" width="110" height="110">
+				<img src="" alt="image name" width="110" height="110">
+			</marquee>
+		<div id="div1" class="floor"></div><br><br><br><br><br><br>
+		<div id="div2" class="floor"></div><br><br><br><br><br><br>
+		<div id="div3" class="floor"></div><br><br><br><br><br><br>
+		<div id="div4" class="floor"></div>
 
-<button class="start">Start</button><br><br>
-
-<div id="div1" class="floor"></div><br><br><br><br><br><br>
-<div id="div2" class="floor"></div><br><br><br><br><br><br>
-<div id="div3" class="floor"></div><br><br><br><br><br><br>
-<div id="div4" class="floor"></div>
-
-</body>
+	</body>
 </html>
