@@ -1,4 +1,11 @@
+<!-- Alana Harmon -->
 
+body{
+	background-color: #BDBDBD;
+}
+button{
+	padding: 20px;
+}
 
 div.floor{
 	background-color: #0F0F0A;
@@ -6,7 +13,11 @@ div.floor{
 	width: 100%;
 	height: 20px;
 	}
-
+.center{
+	margin: auto;
+	width: 10%;
+	padding: 10px;
+	}
 .start{
 	margin: auto;
 	width: 60%;
@@ -16,4 +27,4 @@ div.floor{
 <!-- ID -->
 #options{
 	font-size: 44px;
-}
+	}
