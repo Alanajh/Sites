@@ -6,11 +6,9 @@ body{
 button{
 	padding: 20px;
 }
-li{
-	display: inline;
-	border-style: solid;
+ul {
+	list-style: none;
 }
-
 div.floor{
 	background-color: #0F0F0A;
 	display:none;
@@ -18,6 +16,27 @@ div.floor{
 	height: 20px;
 	}
 
+#lineup{
+	position: relative;	
+}
+#lineup .innerLineup{
+	overflow: hidden;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+#lineup ul{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#lineup li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
 #options{
 	font-size: 44px;
 	}
@@ -26,3 +45,10 @@ div.floor{
 	width: 100%;
 	padding: 10px;
 }	
+
+#rotator img { 
+  position: absolute; 
+}
+#numbers{
+	align: right;
+}
