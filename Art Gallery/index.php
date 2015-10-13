@@ -8,7 +8,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	</head>
 
-	<body>
+	<body onclick="showCoords(event)">
 	<!-- MAIN BAR WITH LOGO -->
 		<div id="menu">
 			<h3>galleria d'arte Renissance</h3>
@@ -44,6 +44,7 @@
 				});
 			});
 		});
+
 	</script>	
 	<script>
 		$(document).ready(function(){
