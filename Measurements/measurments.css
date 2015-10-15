@@ -1,0 +1,34 @@
+#bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#choice{
+	padding :4%;
+	text-align: center;
+}
+#info{
+	background-color: white;
+	height: 10%;
+	margin-top: 10px;
+	padding: 5%;
+}
+#selection{
+	background-color: #5F9DA1;
+	height: 10%;
+	overflow: auto;
+}
+#mid{
+	background-color: #E2D893;
+	border: 3px solid #2B2301;
+	border-radius: 35px 35px 35px 35px;
+	height: 550px;
+	margin-top: 2%;
+}
+#title{
+	background-color: #A79365;
+	border-radius: 15px 15px 15px 15px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
