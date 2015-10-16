@@ -13,7 +13,7 @@ a:active{
 	color: blue;
 }
 body{
-	background: #cc99ff !important; /* over-write default bootstrap */
+	background:  !important; /* over-write default bootstrap */
 }
 .container{
 	margin: 0 auto;
