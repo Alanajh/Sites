@@ -1,14 +1,6 @@
-
-
-<!DOCTYPE>
-<html>
-
-<title> Alana Harmon - Software Developer</title>
-<head> <link rel="stylesheet" type="text/css" href="mySiteFoundation.css"></head>
-
-<body>
 <?php
- $username = "root";
+
+$username = "root";
 $password = "root";
 $hostname = "localhost"; 
 
@@ -18,6 +10,15 @@ $dbhandle = mysql_connect($hostname, $username, $password)
 echo "Connected to MySQL<br>";
 
 ?>
+
+
+<!DOCTYPE>
+<html>
+
+<title> Alana Harmon - Software Developer</title>
+<head> <link rel="stylesheet" type="text/css" href="mySiteFoundation.css"></head>
+
+<body>
 	  <div class="row">
   <div class="large-12 columns">
  
@@ -34,8 +35,6 @@ echo "Connected to MySQL<br>";
           </li>
     
         </ul>
-       
- 
         <section class="top-bar-section">
           <ul class="left">
             <li><a href="java.html">Java Applications</a></li>
@@ -57,14 +56,9 @@ echo "Connected to MySQL<br>";
             </li>
           </ul>
         </section>
-      </nav>
- 
-     
-  
+      </nav> 
     </div>
   </div>
- 
- 
   <div class="row">
     <div class="large-12 columns">
 
@@ -124,18 +118,10 @@ echo "Connected to MySQL<br>";
  
           <h4>Get in Touch</h4><hr/>
           <a class="large button expand" href="#">Contact</a>
- 
- 
         </div>
- 
-     
- 
       </div>
     </div>
   </div>
- 
-     
- 
   <footer class="row">
     <div class="large-12 columns">
       <hr>
