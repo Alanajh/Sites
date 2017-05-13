@@ -1,0 +1,71 @@
+
+
+a:link{
+	color:white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: lightblue;
+}
+a:active{
+	color: blue;
+}
+body{
+	background:  !important; /* over-write default bootstrap */
+}
+.container{
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 100%;
+}
+#dt{
+	border-radius: 5px 5px 25px 25px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: gray;
+	color: white;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-top:20px;
+	font-size:16px; /* made large for the visually impared */
+}
+#foot{
+
+}
+#frh2{
+	background-color: lightblue;
+	border-radius: 25px 25px 5px 5px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	color: white;
+	font-size: 36px;
+	padding: 30px;
+}
+#apptitle{
+	text-align: center;
+}
+#header{
+	
+}
+#middle{
+	
+}
+#sr1{
+	background-color: gray;
+	border-radius: 5px 5px 5px 5px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	color: white;
+	padding: 10px;
+}
+#sr2{
+	background-color: blue;
+	border-radius: 5px 5px 5px 5px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	color: white;
+}

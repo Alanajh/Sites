@@ -6,18 +6,28 @@
 <title> Alana Harmon - Software Developer</title>
 <head> <link rel="stylesheet" type="text/css" href="mySiteFoundation.css"></head>
 
-<body>
 <?php
- $username = "root";
-$password = "root";
-$hostname = "localhost"; 
+$servername = "localhost";
+$username = "root";
+$password = "rootsdv";
+$dbname = "Books_db";
 
-//connection to the database
-$dbhandle = mysql_connect($hostname, $username, $password) 
-  or die("Unable to connect to MySQL");
-echo "Connected to MySQL<br>";
+// Create connection
+$conn = new mysqli($servername, $username, $password);
 
+// Check connection
+if ($conn->connect_error) {
+   echo "Nothing happened";
+} else{
+	echo "Connected successfully";
+}
 ?>
+
+<body>
+  <! ------  JAVASCRIPT ---- >
+  <script language="Javascript" type="text/javascript">
+   
+  </script>
 	  <div class="row">
   <div class="large-12 columns">
  

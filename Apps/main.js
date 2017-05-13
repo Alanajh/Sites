@@ -1,5 +1,5 @@
 function rotateBanners(elem) {
-    var active = $(elem+" img.active");
+    var active = $(elem +" img.active");
     var next = active.next();
     if (next.length == 0)
     next = $(elem+" img:first");
