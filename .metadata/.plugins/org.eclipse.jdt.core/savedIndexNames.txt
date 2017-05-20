@@ -1,0 +1,1 @@
+INDEX VERSION 1.129+/Applications/MAMP_2017-05-07_18-57-02/htdocs/Sites/.metadata/.plugins/org.eclipse.jdt.core
